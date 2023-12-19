@@ -10,7 +10,7 @@ body{
     font-family: candara;
     height: 100vh;
     overflow: hidden;
-    background: #092635;
+    background: #0f3b52;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +36,7 @@ body{
 }
 
 .front, .back{
-    background-color: #1B4242;
+    background-color: #265f5f;
     height: 100%;
     width: 100%;
     border-radius: 2rem;
@@ -54,9 +54,10 @@ body{
 }
 
 .back{
-    transform: rotateY(180deg);
-    display: flex;
+    transform: rotateY(180deg) ;
+    display: flexbox;
     flex-direction: column;
+    
 }
 
 #generator{
@@ -64,7 +65,11 @@ body{
 }
 
 .image{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
+}
+
+.name, #username, #email, #website{
+    display: inline;    
 }
