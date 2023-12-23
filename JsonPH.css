@@ -6,8 +6,7 @@
 }
 
 body{
-    color: #c9d9e1;
-    font-weight: 900;
+    color: #a8beca;
     font-family: candara;
     height: 100vh;
     overflow: hidden;
@@ -37,7 +36,7 @@ body{
 }
 
 .front, .back{
-    background: #235656d0;
+    background: rgb(33, 80, 80);
     height: 100%;
     width: 100%;
     border-radius: 2rem;
@@ -47,17 +46,20 @@ body{
     justify-content: center;
     align-items: center;
     gap: 5rem;
+    font-weight: 500;
 }
 
 .front #name{
     display: flexbox;
-    font-size: 50px;
+    font-size: 45px;
     margin-top: 20px;
     margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .front .image{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 75px;
     height: 200px;
     width: 200px;
@@ -85,6 +87,10 @@ body{
     display: inline;    
 }
 
-#generator{
-    display: block;
+#button{
+    margin-top: 600px;
+    cursor: pointer;
+    font-family: candara;
+    font-size: 15px;
+    align-content: center;
 }
