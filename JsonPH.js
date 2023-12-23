@@ -22,8 +22,4 @@ async function RandomPortfolio(){
     web.innerText = json[random].website;
 }
 
-function getRandom(){
-
-}
-
 btn.addEventListener('click',RandomPortfolio);
