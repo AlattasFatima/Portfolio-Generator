@@ -13,12 +13,17 @@ async function RandomPortfolio(){
     console.log("dfjnvidx");
     const res = await fetch(apiURL);
     const json = await res.json();
-    person.innerText = json[0].name;
-    person1.innerText = json[0].name;
-    un.innerText = json[0].username;
-    email.innerText = json[0].email;
-    web.innerText = json[0].website;
+
+    let random = Math.floor(Math.random() * json.length);
+    person.innerText = json[random].name;
+    person1.innerText = json[random].name;
+    un.innerText = json[random].username;
+    email.innerText = json[random].email;
+    web.innerText = json[random].website;
 }
 
+function getRandom(){
+
+}
 
 btn.addEventListener('click',RandomPortfolio);
