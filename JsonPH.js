@@ -10,16 +10,15 @@ const apiURL = 'https://jsonplaceholder.typicode.com/users';
 
 
 async function RandomPortfolio(){
-    console.log("dfjnvidx");
     const res = await fetch(apiURL);
     const json = await res.json();
 
     let random = Math.floor(Math.random() * json.length);
     person.innerText = json[random].name;
-    person1.innerText = json[random].name;
-    un.innerText = json[random].username;
-    email.innerText = json[random].email;
-    web.innerText = json[random].website;
+    person1.innerText = ("Name : "+json[random].name);
+    un.innerText = ("Username : "+json[random].username);
+    email.innerText = ("Email : "+json[random].email);
+    web.innerText = ('Website : '+json[random].website);
 }
 
 btn.addEventListener('click',RandomPortfolio);
