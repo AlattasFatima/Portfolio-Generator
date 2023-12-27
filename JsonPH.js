@@ -22,8 +22,8 @@ async function RandomPortfolio(){
     web.innerText = ('Website : '+json[random].website);
     switch (random){
         case 0:
-            image1.src = 'https://academicminute.org/wp-content/uploads/2020/11/leanne_dzubinski01-684x1024.jpg';
-            image2.src = 'https://academicminute.org/wp-content/uploads/2020/11/leanne_dzubinski01-684x1024.jpg';        
+            image1.src = 'https://thenational-the-national-prod.cdn.arcpublishing.com/resizer/769OEegYjNArN_cQl1yEGxICLZw=/400x0/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/thenational/WZKVG3I6BPAOD4QVHH3346QMC4.jpg';
+            image2.src = 'https://thenational-the-national-prod.cdn.arcpublishing.com/resizer/769OEegYjNArN_cQl1yEGxICLZw=/400x0/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/thenational/WZKVG3I6BPAOD4QVHH3346QMC4.jpg';        
         break;
         case 1:
             image1.src = 'https://huskers.com/imgproxy/Sdr4Nn6mlIQGwAuRUiMMW0FGC0U6OMWPPd01E_aFT5c/rs:fit:1980:0:0:g:ce/q:90/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2h1c2tlcnMtY29tLXByb2QvMjAyMy8wNi8zMC9JTnJqanR4b0tKVThjVGl2UlZ3MEs0alpyTThPaFl5WGpTYlN1b25aLmpwZw.jpg'
@@ -34,20 +34,20 @@ async function RandomPortfolio(){
             image2.src ='https://www.shutterstock.com/image-photo/head-shot-profile-photo-portrait-260nw-1831529317.jpg'
         break;
         case 3:
-            image1.src = 'https://images.squarespace-cdn.com/content/v1/5f0ceb84e6ecb31d19857da2/5a6b383d-f15a-4e34-b599-a7e5a2159cc1/Personal+Branding+Fotograf+in+Innsbruck+Tirol.jpg?format=1500w'
-            image2.src = 'https://images.squarespace-cdn.com/content/v1/5f0ceb84e6ecb31d19857da2/5a6b383d-f15a-4e34-b599-a7e5a2159cc1/Personal+Branding+Fotograf+in+Innsbruck+Tirol.jpg?format=1500w'
+            image1.src = 'https://img.freepik.com/free-photo/medium-shot-smiley-woman-with-hijab_23-2149122758.jpg'
+            image2.src = 'https://img.freepik.com/free-photo/medium-shot-smiley-woman-with-hijab_23-2149122758.jpg'
         break;
         case 4:
-            image1.src = 'https://www.paralympic.org/sites/default/files/2019-10/Chelsey%20Gotell.jpg'
-            image2.src = 'https://www.paralympic.org/sites/default/files/2019-10/Chelsey%20Gotell.jpg'
+            image1.src = 'https://assets-global.website-files.com/603f858b79d25a14328c00e7/61bb44f2bacfe144253df507_Halima%20Aden.jpg'
+            image2.src = 'https://assets-global.website-files.com/603f858b79d25a14328c00e7/61bb44f2bacfe144253df507_Halima%20Aden.jpg'
         break;
         case 5:
-            image1.src = 'https://emilykylephotography.com/wp-content/uploads/sites/21905/2021/07/Detroit_Personal_Brand_Photographer_0001-1.jpg'
-            image2.src = 'https://emilykylephotography.com/wp-content/uploads/sites/21905/2021/07/Detroit_Personal_Brand_Photographer_0001-1.jpg'
+            image1.src = 'https://www.shutterstock.com/image-photo/online-therapy-psychology-young-smiling-260nw-2304439215.jpg'
+            image2.src = 'https://www.shutterstock.com/image-photo/online-therapy-psychology-young-smiling-260nw-2304439215.jpg'
         break;
         case 6:
-            image1.src = 'https://www.hbl.com/assets/images/HBL_PERSONALLOAN_2.png'
-            image2.src = 'https://www.hbl.com/assets/images/HBL_PERSONALLOAN_2.png'
+            image1.src = 'https://img.freepik.com/free-photo/medium-shot-night-portrait_23-2149005431.jpg'
+            image2.src = 'https://img.freepik.com/free-photo/medium-shot-night-portrait_23-2149005431.jpg'
         break;
         case 7:
             image1.src = 'https://images.financebuzz.com/446x235/filters:quality(75)/images/2019/10/30/borrow_low_interest_personal_loans.jpg'
@@ -62,8 +62,6 @@ async function RandomPortfolio(){
             image2.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGzYJorb32UYQ5HvclpXHxsLRZBZn1aHQEPPtHHjZoorkmChC1dQn6IzYfE6LAskNs4Jc&usqp=CAU'
         break;
         }//switch
-        
-    
 }
 
 btn.addEventListener('click',RandomPortfolio);
